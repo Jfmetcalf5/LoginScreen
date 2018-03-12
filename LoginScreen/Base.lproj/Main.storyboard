@@ -50,6 +50,9 @@
                                 <rect key="frame" x="131.33333333333334" y="554" width="112.33333333333334" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Login"/>
+                                <connections>
+                                    <action selector="loginButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kWh-FV-FQy"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -70,6 +73,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="aboutMeLabel" destination="AiL-da-YCb" id="vDP-8J-eB6"/>
+                        <outlet property="headerImageView" destination="rgI-hR-PsP" id="LVi-Ul-TFW"/>
+                        <outlet property="loginButton" destination="lof-JN-8r1" id="xxp-d6-DY0"/>
+                        <outlet property="profileImageView" destination="x6n-Ir-rvU" id="dWP-Tu-K48"/>
+                        <outlet property="usernameLabel" destination="aqG-Du-t3w" id="ykp-0k-tyY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
